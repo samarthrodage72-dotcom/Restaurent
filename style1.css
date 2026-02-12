@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#amenu{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    font-style: italic;
+}    
+
+#amfirst{
+    background-image: url(https://indiarestaurant.co.in/assets/images/backgrounds/ABOUT-1.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#asection2{
+    width: 100%;
+}
+#amsecond h1{
+    color: black;
+    margin: 5px;
+
+}
+#aimage6{
+    width: 100%;
+    height: 150px;
+ 
+}
+
+
+#amsecond{
+    text-align: center;
+    margin: 15px;
+
+
+}
+.acolor2{
+    text-align: center;
+    color: rgb(156, 134, 134);
+    margin-top: 5%;
+}
+
+.aimageection img{
+    width: 100%;
+    
+}
+#asection3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    width: 100%;
+    color: rgb(156, 134, 134);
+    
+    
+}
+#aclass1{
+    text-align: center;
+}
+.aclass1{
+    width: 45%;
+    text-align: center;  
+}
+.aclass1 img{
+    width: 100%;
+}
+.aclass1 h2 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: burlywood;
+    text-align: center;
+    
+
+}
+#asection3{
+    text-align: center;
+    margin: 5px;
+    color: rgb(156, 134, 134);
+}
+#aclass1 h2{
+    color: burlywood;
+    text-decoration: underline;
+
+    text-align: center;
+
+}
+#aclass1{
+    text-align: center;
+}
+
+ .aclass5{
+    text-align: center;
+   
+    margin: 10px;
+}
+footer{
+    background-color: rgb(86, 73, 73);
+    color: white;
+}
+
+/* <!--end phon screen> */ 
+
+ @media only screen and (min-width:768px){
+
+   #asection3{
+    display: flex;
+    justify-content: center;
+   }
+   .aclass1{
+    width: 25%;
+   }
+
+   .aimageection{
+    margin: 10px;
+    width: 90%;
+   }
+
+   .acolor2{
+    margin: 0% 10%;
+   }
+ }
+
+
+ /* <!--end tab screen> */ 
+
+ @media only screen and (min-width:1200px){
+    #amenu{
+    display: flex;
+}
+
+   .amenu{
+    display: none;
+   }
+
+   #amfirst{
+    height: 600px;
+   }
+
+   #asection2{
+    display: flex;
+    width: 100%;
+    margin: 20Px;
+   }
+   #amsecond{
+    width: 45%;
+   }
+   .aimageection{
+    width: 45%;
+   }
+   
+   
+  
+
+ 
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

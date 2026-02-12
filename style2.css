@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#mmenu{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    font-style: italic;
+}
+
+#menua{
+     width: 100%;
+    display: flex;
+    text-align: center;
+    background-image: url(https://indiarestaurant.co.in/assets/images/backgrounds/MENU.jpg);
+    background-size: 100% 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+   
+ 
+
+}
+#menua img{
+    width: 100%;
+
+}
+
+#mclass1{
+    text-align: center;
+    margin: 15px;
+
+}
+#mclass1 h3{
+    color: burlywood;
+}
+.mclass1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10%;
+    
+}
+.mclass1 a{
+    color: black;
+    text-decoration: none;
+}
+
+#mmsection3{
+    width: 100%;
+    
+   
+}
+.mclass2 img{
+    width: 80%;
+    margin: 10%;
+   
+}
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+
+    background-color: rgb(100, 89, 89);
+    color: white;
+}
+.mclass5{
+    margin: 7%;
+}
+
+/* <!--end phon screen> */ 
+
+ @media only screen and (min-width:768px){
+    #menua{
+        height: 300px;
+    }
+    .mclass1{
+        margin:  0% 20%;
+    }
+    
+
+
+ }
+
+ @media only screen and (min-width:1200px){
+
+    .mmenu{
+        display: none;
+    }
+
+    #mmenu{
+        display: flex;
+    }
+ }
