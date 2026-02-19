@@ -12,7 +12,7 @@ header{
     align-items: center;
     padding: 15px 30px;
     background-color: white;
-    font-style: italic;
+
 }
 
 #menua{
@@ -101,5 +101,16 @@ footer{
 
     #mmenu{
         display: flex;
+        padding: 20px;
     }
- }
+      #mmenu a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(118, 106, 92);
+
+   }
+ 
+    
+    }
+ 

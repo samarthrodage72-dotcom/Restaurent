@@ -12,7 +12,7 @@ header{
     align-items: center;
     padding: 15px 30px;
     background-color: white;
-    font-style: italic;
+    
 }    
 
 #amfirst{
@@ -137,7 +137,18 @@ footer{
  @media only screen and (min-width:1200px){
     #amenu{
     display: flex;
+    padding: 20px;
+    
 }
+  #amenu a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(118, 106, 92);
+
+   }
+ 
+
 
    .amenu{
     display: none;

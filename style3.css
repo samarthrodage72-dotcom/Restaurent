@@ -90,7 +90,16 @@ footer{
     }
     #gmenu{
     display: flex;
+     text-decoration: none;
    }
+     #gmenu a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(118, 106, 92);
+
+   }
+ 
    .gmenu{
     display: none;
    }

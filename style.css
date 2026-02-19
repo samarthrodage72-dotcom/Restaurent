@@ -40,17 +40,15 @@ header{
 }
 
 
- #section2{
-    display: flex;
-    width: 100%;
-} 
-
- #msecond {
+#msecond{
+    display: block;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
+      margin: 10px;
 }
+/* .imageection{
+    display: none;
+    margin: 10px;
+} */
 
 .class1{
     margin-top: 10%;
@@ -90,6 +88,11 @@ header{
     text-align: center;
     margin-top: 10%;
 }
+
+#section4{
+    text-align: center;
+
+}
 #color3{
     color: burlywood;
 }
@@ -115,8 +118,7 @@ header{
 }
 .class3{
     display: flex;
-    /* border-color: black;
-    border-style: dashed; */
+    
     text-align: center;
     margin-bottom: 10%;
     margin-top: 10%;
@@ -206,6 +208,14 @@ textarea{
     margin-top: 7%;
     color: burlywood;
 }
+
+.class8{
+    text-align: center;
+}
+#class8{
+    margin-left: 50px;
+   
+}
 footer{
     background-color: rgb(86, 73, 73);
     color: white;
@@ -251,6 +261,9 @@ footer{
     justify-content: center;
     width: 100%;
     }
+    #imageection{
+        display: inline-flex;
+    }
    .color2{
     margin: 0% 15%;
    }
@@ -275,7 +288,15 @@ footer{
    #menu{
     display: flex;
     padding: 20px;
+   
     
+
+   }
+   #menu a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(118, 106, 92);
 
    }
 
